@@ -1,6 +1,6 @@
 {
   "name": "@mahpooya/react-with-direction",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Components to provide and consume RTL or LTR direction in React (Fork for update dependencies specially webpack)",
   "author": "Yaniv Zimet <yaniv.zimet@airbnb.com>",
   "contributors": [
@@ -30,7 +30,7 @@
     "prepublish": "safe-publish-latest && npm run build"
   },
   "dependencies": {
-    "airbnb-prop-types": "^2.16.0",
+    "airbnb-prop-types": "npm:@mahpooya/airbnb-prop-types@^2.16.1",
     "brcast": "^3.0.2",
     "deepmerge": "^4.3.1",
     "direction": "^2.0.1",
