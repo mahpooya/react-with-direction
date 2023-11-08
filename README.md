@@ -1,4 +1,4 @@
-# react-with-direction <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# @mahpooya/react-with-direction <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
@@ -21,7 +21,7 @@ Use `withDirection` when your component needs to change based on the layout dire
 Usage example:
 
 ```js
-import withDirection, { withDirectionPropTypes, DIRECTIONS } from 'react-with-direction';
+import withDirection, { withDirectionPropTypes, DIRECTIONS } from '@mahpooya/react-with-direction';
 
 function ForwardsLabel({ direction }) {
   return (
@@ -52,7 +52,7 @@ You should set the `direction` prop based on the language of the content being r
 Usage example:
 
 ```js
-import DirectionProvider, { DIRECTIONS } from 'react-with-direction/dist/DirectionProvider';
+import DirectionProvider, { DIRECTIONS } from '@mahpooya/react-with-direction/dist/DirectionProvider';
 ```
 
 ```jsx
@@ -68,7 +68,7 @@ To set the `lang` attribute on the wrapping element, provide the `lang` prop to 
 Usage example:
 
 ```jsx
-import DirectionProvider, { DIRECTIONS } from 'react-with-direction/dist/DirectionProvider';
+import DirectionProvider, { DIRECTIONS } from '@mahpooya/react-with-direction/dist/DirectionProvider';
 
 <DirectionProvider direction={DIRECTIONS.RTL} lang="ar">
   <div>
@@ -88,7 +88,7 @@ Direction will be determined based on the first strong LTR/RTL character in the 
 Usage example:
 
 ```js
-import AutoDirectionProvider from 'react-with-direction/dist/AutoDirectionProvider';
+import AutoDirectionProvider from '@mahpooya/react-with-direction/dist/AutoDirectionProvider';
 ```
 
 ```js
@@ -101,7 +101,7 @@ import AutoDirectionProvider from 'react-with-direction/dist/AutoDirectionProvid
 
 `AutoDirectionProvider` also supports the `lang` prop in the same way as `DirectionProvider` does.
 
-[package-url]: https://npmjs.org/package/react-with-direction
+[package-url]: https://npmjs.org/package/@mahpooya/react-with-direction
 [npm-version-svg]: http://versionbadg.es/airbnb/react-with-direction.svg
 [travis-svg]: https://travis-ci.org/airbnb/react-with-direction.svg
 [travis-url]: https://travis-ci.org/airbnb/react-with-direction
