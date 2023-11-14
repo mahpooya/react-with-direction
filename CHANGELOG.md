@@ -1,5 +1,10 @@
 # Change Log
 
+## v1.4.3
+- 
+- [Deps] switch `babel-plugin-transform-replace-object-assign` to `@babel/plugin-transform-object-assign`
+- [Dev Deps] update `@babel/plugin-transform-object-assign`, `babel-preset-airbnb`, `chai-enzyme`, `enzyme-adapter-react-helper`, `eslint`, `eslint-config-airbnb`, `eslint-plugin-import`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `sinon`, `sinon-chai`, `sinon-sandbox`
+
 ## v1.4.0
 - [New] `DirectionProvider`: add `lang` prop
 - [Deps] update `airbnb-prop-types`, `direction`, `hoist-non-react-statics`, `object.assign`, `object.values`, `prop-types`

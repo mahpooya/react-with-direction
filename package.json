@@ -1,6 +1,6 @@
 {
   "name": "@mahpooya/react-with-direction",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Components to provide and consume RTL or LTR direction in React (Fork for update dependencies specially webpack)",
   "author": "Yaniv Zimet <yaniv.zimet@airbnb.com>",
   "contributors": [
